@@ -1,6 +1,6 @@
 # supervisor-status
 
-https://travis-ci.org/intel-hpdd/supervisor-status.svg?branch=master
+[![Build Status](https://travis-ci.org/intel-hpdd/supervisor-status.svg?branch=master)](https://travis-ci.org/intel-hpdd/supervisor-status)
 
 This module reports supervisord process status as a JSON array as a persistent daemon.
 
