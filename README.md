@@ -1,5 +1,7 @@
 # supervisor-status
 
+https://travis-ci.org/intel-hpdd/supervisor-status.svg?branch=master
+
 This module reports supervisord process status as a JSON array as a persistent daemon.
 
 This avoids the need to implement a XMLRPC client everywhere we need status. We can just
