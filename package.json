@@ -1,0 +1,29 @@
+{
+  "name": "@iml/supervisor-status",
+  "version": "1.0.0",
+  "description": "Service that reports current supervisor status as JSON.",
+  "main": "dist/supervisor-status",
+  "scripts": {
+    "postversion": "webpack",
+    "test": "jest --silent",
+    "cover": "jest --coverage --silent"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "pre-commit": [
+    "eslint",
+    "test"
+  ],
+  "author": "IML Team",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.5.2",
+    "eslint": "^4.0.0",
+    "jest": "^20.0.4",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.4.4",
+    "supervisord": "^0.1.0",
+    "webpack": "^2.6.1"
+  }
+}
