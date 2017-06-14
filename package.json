@@ -6,7 +6,8 @@
   "scripts": {
     "postversion": "webpack",
     "test": "jest --silent",
-    "cover": "jest --coverage --silent"
+    "cover": "jest --coverage --silent",
+    "eslint": "eslint ./"
   },
   "publishConfig": {
     "access": "public"
@@ -20,6 +21,8 @@
   "devDependencies": {
     "babel-preset-env": "^1.5.2",
     "eslint": "^4.0.0",
+    "eslint-config-prettier": "^2.1.1",
+    "eslint-plugin-prettier": "^2.1.2",
     "jest": "^20.0.4",
     "pre-commit": "^1.2.2",
     "prettier": "^1.4.4",
