@@ -1,8 +1,8 @@
 # supervisor-status
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/intel-hpdd/supervisor-status.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/intel-hpdd/supervisor-status.svg?branch=master)](https://travis-ci.org/intel-hpdd/supervisor-status)
 [![codecov](https://codecov.io/gh/intel-hpdd/supervisor-status/branch/master/graph/badge.svg)](https://codecov.io/gh/intel-hpdd/supervisor-status)
+[![Greenkeeper badge](https://badges.greenkeeper.io/intel-hpdd/supervisor-status.svg)](https://greenkeeper.io/)
 
 This module reports supervisord process status as a JSON array as a persistent daemon.
 
