@@ -18,7 +18,6 @@ const server = net.createServer(c =>
         })
       );
     } else {
-      c.id = 1;
       c.end(JSON.stringify({ result }));
     }
   })
