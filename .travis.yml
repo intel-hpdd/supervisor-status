@@ -10,6 +10,7 @@ script:
 - yarn run cover
 after_success:
 - codecov
+before_deploy: yarn postversion
 deploy:
   provider: npm
   email: joe.grund@intel.com
