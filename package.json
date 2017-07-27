@@ -1,6 +1,6 @@
 {
   "name": "@iml/supervisor-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Service that reports current supervisor status as JSON.",
   "main": "dist/supervisor-status",
   "scripts": {
